@@ -41,6 +41,8 @@ struct MenuView: View {
                     .frame(width: 60, height: 60)
                     .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
                     .offset(y: -150)
+                    .shadow(radius: 5)
+                
             )
         }
         .padding(.bottom, 30)
