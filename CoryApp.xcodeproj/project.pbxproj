@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0E34E6A926EAA82700B64324 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E34E6A826EAA82700B64324 /* MenuView.swift */; };
 		0E34E6AD26EABA9F00B64324 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E34E6AC26EABA9F00B64324 /* Home.swift */; };
+		0E34E6B326EBB6A300B64324 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E34E6B226EBB6A300B64324 /* HomeView.swift */; };
 		0EC492ED26E9711A00EF703F /* CoryAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC492EC26E9711A00EF703F /* CoryAppApp.swift */; };
 		0EC492EF26E9711A00EF703F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC492EE26E9711A00EF703F /* ContentView.swift */; };
 		0EC492F126E9711B00EF703F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EC492F026E9711B00EF703F /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* Begin PBXFileReference section */
 		0E34E6A826EAA82700B64324 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		0E34E6AC26EABA9F00B64324 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		0E34E6B226EBB6A300B64324 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		0EC492E926E9711A00EF703F /* CoryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EC492EC26E9711A00EF703F /* CoryAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoryAppApp.swift; sourceTree = "<group>"; };
 		0EC492EE26E9711A00EF703F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				0EC492EC26E9711A00EF703F /* CoryAppApp.swift */,
 				0EC492EE26E9711A00EF703F /* ContentView.swift */,
 				0E34E6AC26EABA9F00B64324 /* Home.swift */,
+				0E34E6B226EBB6A300B64324 /* HomeView.swift */,
 				0E34E6A826EAA82700B64324 /* MenuView.swift */,
 				0EC492F026E9711B00EF703F /* Assets.xcassets */,
 				0EC492F526E9711B00EF703F /* Info.plist */,
@@ -268,6 +271,7 @@
 				0EC492EF26E9711A00EF703F /* ContentView.swift in Sources */,
 				0E34E6A926EAA82700B64324 /* MenuView.swift in Sources */,
 				0E34E6AD26EABA9F00B64324 /* Home.swift in Sources */,
+				0E34E6B326EBB6A300B64324 /* HomeView.swift in Sources */,
 				0EC492ED26E9711A00EF703F /* CoryAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +431,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"CoryApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 6MP57QTTGF;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CoryApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -448,6 +453,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"CoryApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 6MP57QTTGF;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CoryApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
