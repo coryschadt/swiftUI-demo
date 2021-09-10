@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E2CC8EC26EC04A900BAE021 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2CC8EB26EC04A900BAE021 /* RingView.swift */; };
 		0E34E6A926EAA82700B64324 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E34E6A826EAA82700B64324 /* MenuView.swift */; };
 		0E34E6AD26EABA9F00B64324 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E34E6AC26EABA9F00B64324 /* Home.swift */; };
 		0E34E6B326EBB6A300B64324 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E34E6B226EBB6A300B64324 /* HomeView.swift */; };
 		0E34E6B526EBDC0E00B64324 /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E34E6B426EBDC0E00B64324 /* UpdateList.swift */; };
 		0E34E6B726EBF16600B64324 /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E34E6B626EBF16600B64324 /* UpdateDetail.swift */; };
+		0E34E6B926EBF43700B64324 /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E34E6B826EBF43700B64324 /* UpdateStore.swift */; };
+		0E34E6BB26EBFB1500B64324 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E34E6BA26EBFB1500B64324 /* TabBar.swift */; };
+		0E34E6BD26EBFD1200B64324 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E34E6BC26EBFD1200B64324 /* SceneDelegate.swift */; };
 		0EC492ED26E9711A00EF703F /* CoryAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC492EC26E9711A00EF703F /* CoryAppApp.swift */; };
 		0EC492EF26E9711A00EF703F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC492EE26E9711A00EF703F /* ContentView.swift */; };
 		0EC492F126E9711B00EF703F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EC492F026E9711B00EF703F /* Assets.xcassets */; };
@@ -38,11 +42,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E2CC8EB26EC04A900BAE021 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
 		0E34E6A826EAA82700B64324 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		0E34E6AC26EABA9F00B64324 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		0E34E6B226EBB6A300B64324 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		0E34E6B426EBDC0E00B64324 /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
 		0E34E6B626EBF16600B64324 /* UpdateDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetail.swift; sourceTree = "<group>"; };
+		0E34E6B826EBF43700B64324 /* UpdateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
+		0E34E6BA26EBFB1500B64324 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		0E34E6BC26EBFD1200B64324 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0EC492E926E9711A00EF703F /* CoryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EC492EC26E9711A00EF703F /* CoryAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoryAppApp.swift; sourceTree = "<group>"; };
 		0EC492EE26E9711A00EF703F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -112,9 +120,13 @@
 				0E34E6A826EAA82700B64324 /* MenuView.swift */,
 				0E34E6B426EBDC0E00B64324 /* UpdateList.swift */,
 				0E34E6B626EBF16600B64324 /* UpdateDetail.swift */,
+				0E34E6B826EBF43700B64324 /* UpdateStore.swift */,
+				0E34E6BA26EBFB1500B64324 /* TabBar.swift */,
+				0E2CC8EB26EC04A900BAE021 /* RingView.swift */,
 				0EC492F026E9711B00EF703F /* Assets.xcassets */,
 				0EC492F526E9711B00EF703F /* Info.plist */,
 				0EC492F226E9711B00EF703F /* Preview Content */,
+				0E34E6BC26EBFD1200B64324 /* SceneDelegate.swift */,
 			);
 			path = CoryApp;
 			sourceTree = "<group>";
@@ -275,9 +287,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E34E6B726EBF16600B64324 /* UpdateDetail.swift in Sources */,
+				0E34E6BB26EBFB1500B64324 /* TabBar.swift in Sources */,
 				0EC492EF26E9711A00EF703F /* ContentView.swift in Sources */,
 				0E34E6A926EAA82700B64324 /* MenuView.swift in Sources */,
 				0E34E6B526EBDC0E00B64324 /* UpdateList.swift in Sources */,
+				0E2CC8EC26EC04A900BAE021 /* RingView.swift in Sources */,
+				0E34E6BD26EBFD1200B64324 /* SceneDelegate.swift in Sources */,
+				0E34E6B926EBF43700B64324 /* UpdateStore.swift in Sources */,
 				0E34E6AD26EABA9F00B64324 /* Home.swift in Sources */,
 				0E34E6B326EBB6A300B64324 /* HomeView.swift in Sources */,
 				0EC492ED26E9711A00EF703F /* CoryAppApp.swift in Sources */,

@@ -1,8 +1,9 @@
 //
 //  UpdateDetail.swift
-//  CoryApp
+//  DesignCode
 //
-//  Created by Cory Schadt on 2021-09-10.
+//  Created by Meng To on 2019-12-29.
+//  Copyright © 2019 Meng To. All rights reserved.
 //
 
 import SwiftUI
@@ -11,8 +12,8 @@ struct UpdateDetail: View {
     var update: Update = updateData[1]
     
     var body: some View {
-        List() {
-            VStack {
+        List {
+            VStack(spacing: 20) {
                 Image(update.image)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
